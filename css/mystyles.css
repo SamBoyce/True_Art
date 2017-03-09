@@ -1,0 +1,49 @@
+body {
+    background-image: url(images/back.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+img {
+    height: 175px; width: 200px;
+    border: #AE74FF;
+    border-style: solid;
+    border-width: 3px;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    display: inline-block;
+    transition: width 1s; height 1s; filter: blur(30px)
+}
+ 
+img:hover {
+     opacity: 0.80;
+    filter: alpha(opacity=50);
+    filter: blur(0px);
+}
+
+
+#h2h2 {
+    display: flex;
+}
+
+#idubbbz {
+    display: flex;
+}
+
+#frank {
+    display: flex;
+}
+
+.names{
+    color: lightcyan;
+    font-size: 50px;
+    text-shadow: 
+        0 0 10px purple,
+        0 0 14px pink,
+        0 0 19px black,
+        0 0 9px purple,
+        0 0 3px pink,
+        0 0 6px red,
+        0 0 8px blue;
+}
